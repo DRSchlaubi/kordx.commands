@@ -4,6 +4,7 @@ import com.gitlab.kordlib.kordx.commands.argument.Argument
 import com.gitlab.kordlib.kordx.commands.argument.result.ArgumentResult
 import com.gitlab.kordlib.kordx.commands.argument.result.extension.FilterResult
 import com.gitlab.kordlib.kordx.commands.argument.result.extension.filter
+import java.util.*
 
 /**
  * Returns an Argument that, on top of the supplied argument, only accepts values in [whitelist].
